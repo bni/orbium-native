@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* OrbiumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OrbiumAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		301BF552109A68D80062928A /* libPhoneGap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libPhoneGap.a */; };
+		301BF570109A69640062928A /* www in Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
+		301BF5B5109A6A2B0062928A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B4109A6A2B0062928A /* AddressBook.framework */; };
+		301BF5B7109A6A2B0062928A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B6109A6A2B0062928A /* AddressBookUI.framework */; };
+		301BF5B9109A6A2B0062928A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5B8109A6A2B0062928A /* AudioToolbox.framework */; };
+		301BF5BB109A6A2B0062928A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BA109A6A2B0062928A /* AVFoundation.framework */; };
+		301BF5BD109A6A2B0062928A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BC109A6A2B0062928A /* CFNetwork.framework */; };
+		301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5BE109A6A2B0062928A /* CoreLocation.framework */; };
+		301BF5C1109A6A2B0062928A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C0109A6A2B0062928A /* MediaPlayer.framework */; };
+		301BF5C3109A6A2B0062928A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C2109A6A2B0062928A /* QuartzCore.framework */; };
+		301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
+		3053AC6F109B7857006FCFE7 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 3053AC6E109B7857006FCFE7 /* VERSION */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		307D28A2123043360040C0FA /* PhoneGapBuildSettings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */; };
+		30E1352710E2C1420031B30D /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E1352610E2C1420031B30D /* PhoneGap.plist */; };
+		CE02D0C512C37B08002DA54E /* rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE02D0C412C37B08002DA54E /* rotate.wav */; };
+		CE6271A712C388B1001A4A5A /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6271A612C388B1001A4A5A /* Default~ipad.png */; };
+		CE87215F124656D50050679D /* bounce.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE87215D124656D50050679D /* bounce.wav */; };
+		CE872160124656D50050679D /* clank.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE87215E124656D50050679D /* clank.wav */; };
+		CE872163124656E10050679D /* dock.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE872161124656E10050679D /* dock.wav */; };
+		CE872164124656E10050679D /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE872162124656E10050679D /* explode.wav */; };
+		CE872169124657030050679D /* SoundPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = CE872168124657030050679D /* SoundPlug.m */; };
+		CE95BEEA12C377EE00B4232E /* app_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = CE95BEE912C377EE00B4232E /* app_72x72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = PhoneGapLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = PhoneGapLib;
+		};
+		80078D4913A7E06E000E08EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 303258D8136B2C9400982B63;
+			remoteInfo = PhoneGap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* OrbiumAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbiumAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* OrbiumAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrbiumAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* OrbiumHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbiumHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PhoneGapLib.xcodeproj; sourceTree = PHONEGAPLIB; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		301BF5B4109A6A2B0062928A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		301BF5B6109A6A2B0062928A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		301BF5B8109A6A2B0062928A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		301BF5BA109A6A2B0062928A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		301BF5BC109A6A2B0062928A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		301BF5BE109A6A2B0062928A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		301BF5C0109A6A2B0062928A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		301BF5C2109A6A2B0062928A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3053AC6E109B7857006FCFE7 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = PHONEGAPLIB; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PhoneGapBuildSettings.xcconfig; sourceTree = "<group>"; };
+		30E1352610E2C1420031B30D /* PhoneGap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OrbiumHD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrbiumHD_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OrbiumHD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OrbiumHD-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE02D0C412C37B08002DA54E /* rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rotate.wav; sourceTree = "<group>"; };
+		CE6271A612C388B1001A4A5A /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		CE87215D124656D50050679D /* bounce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bounce.wav; sourceTree = "<group>"; };
+		CE87215E124656D50050679D /* clank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clank.wav; sourceTree = "<group>"; };
+		CE872161124656E10050679D /* dock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dock.wav; sourceTree = "<group>"; };
+		CE872162124656E10050679D /* explode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explode.wav; sourceTree = "<group>"; };
+		CE872167124657030050679D /* SoundPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlug.h; sourceTree = "<group>"; };
+		CE872168124657030050679D /* SoundPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlug.m; sourceTree = "<group>"; };
+		CE95BEE912C377EE00B4232E /* app_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_72x72.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libPhoneGap.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				301BF5B5109A6A2B0062928A /* AddressBook.framework in Frameworks */,
+				301BF5B7109A6A2B0062928A /* AddressBookUI.framework in Frameworks */,
+				301BF5B9109A6A2B0062928A /* AudioToolbox.framework in Frameworks */,
+				301BF5BB109A6A2B0062928A /* AVFoundation.framework in Frameworks */,
+				301BF5BD109A6A2B0062928A /* CFNetwork.framework in Frameworks */,
+				301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */,
+				301BF5C1109A6A2B0062928A /* MediaPlayer.framework in Frameworks */,
+				301BF5C3109A6A2B0062928A /* QuartzCore.framework in Frameworks */,
+				301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* OrbiumAppDelegate.h */,
+				1D3623250D0F684500981E51 /* OrbiumAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* OrbiumHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				301BF56E109A69640062928A /* www */,
+				301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OrbiumHD_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3053AC6E109B7857006FCFE7 /* VERSION */,
+				8D1107310486CEB800E47090 /* OrbiumHD-Info.plist */,
+				30E1352610E2C1420031B30D /* PhoneGap.plist */,
+				CE95BEE912C377EE00B4232E /* app_72x72.png */,
+				CE6271A612C388B1001A4A5A /* Default~ipad.png */,
+				CE87215D124656D50050679D /* bounce.wav */,
+				CE87215E124656D50050679D /* clank.wav */,
+				CE872161124656E10050679D /* dock.wav */,
+				CE872162124656E10050679D /* explode.wav */,
+				CE02D0C412C37B08002DA54E /* rotate.wav */,
+				307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				301BF5B4109A6A2B0062928A /* AddressBook.framework */,
+				301BF5B6109A6A2B0062928A /* AddressBookUI.framework */,
+				301BF5B8109A6A2B0062928A /* AudioToolbox.framework */,
+				301BF5BA109A6A2B0062928A /* AVFoundation.framework */,
+				301BF5BC109A6A2B0062928A /* CFNetwork.framework */,
+				301BF5BE109A6A2B0062928A /* CoreLocation.framework */,
+				301BF5C0109A6A2B0062928A /* MediaPlayer.framework */,
+				301BF5C2109A6A2B0062928A /* QuartzCore.framework */,
+				301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libPhoneGap.a */,
+				80078D4A13A7E06E000E08EF /* PhoneGap.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				CE872167124657030050679D /* SoundPlug.h */,
+				CE872168124657030050679D /* SoundPlug.m */,
+			);
+			path = Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* OrbiumHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OrbiumHD" */;
+			buildPhases = (
+				30E9A9A110B758320022D3BA /* Copy PhoneGap Javascript */,
+				304B58A110DAC018002A0835 /* Touch www folder */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = OrbiumHD;
+			productName = Orbium;
+			productReference = 1D6058910D05DD3D006BFB54 /* OrbiumHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OrbiumHD" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* PhoneGapLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* OrbiumHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libPhoneGap.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPhoneGap.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80078D4A13A7E06E000E08EF /* PhoneGap.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PhoneGap.framework;
+			remoteRef = 80078D4913A7E06E000E08EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF570109A69640062928A /* www in Resources */,
+				3053AC6F109B7857006FCFE7 /* VERSION in Resources */,
+				30E1352710E2C1420031B30D /* PhoneGap.plist in Resources */,
+				307D28A2123043360040C0FA /* PhoneGapBuildSettings.xcconfig in Resources */,
+				CE87215F124656D50050679D /* bounce.wav in Resources */,
+				CE872160124656D50050679D /* clank.wav in Resources */,
+				CE872163124656E10050679D /* dock.wav in Resources */,
+				CE872164124656E10050679D /* explode.wav in Resources */,
+				CE95BEEA12C377EE00B4232E /* app_72x72.png in Resources */,
+				CE02D0C512C37B08002DA54E /* rotate.wav in Resources */,
+				CE6271A712C388B1001A4A5A /* Default~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Touch www folder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Touch www folder";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "touch -cm ${PROJECT_DIR}/www";
+		};
+		30E9A9A110B758320022D3BA /* Copy PhoneGap Javascript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy PhoneGap Javascript";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C \"${PHONEGAPLIB}\"\necho cp ${PHONEGAPLIB}/javascripts/phonegap.js ${PROJECT_DIR}/www/phonegap.js\ncp \"${PHONEGAPLIB}/javascripts/phonegap.0.9.5.1.min.js\" \"${PROJECT_DIR}/www/phonegap.js\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* OrbiumAppDelegate.m in Sources */,
+				CE872169124657030050679D /* SoundPlug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneGapLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrbiumHD_Prefix.pch;
+				INFOPLIST_FILE = "OrbiumHD-Info.plist";
+				PRODUCT_NAME = OrbiumHD;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrbiumHD_Prefix.pch;
+				INFOPLIST_FILE = "OrbiumHD-Info.plist";
+				PRODUCT_NAME = OrbiumHD;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Obj-C",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(PHONEGAPLIB)/Classes/JSON $(PHONEGAPLIB)/Classes";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Obj-C",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(PHONEGAPLIB)/Classes/JSON $(PHONEGAPLIB)/Classes";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7C44B612469F480019E2E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Obj-C",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(PHONEGAPLIB)/Classes/JSON $(PHONEGAPLIB)/Classes";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		CE7C44B712469F480019E2E8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OrbiumHD_Prefix.pch;
+				INFOPLIST_FILE = "OrbiumHD-Info.plist";
+				PRODUCT_NAME = OrbiumHD;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OrbiumHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				CE7C44B712469F480019E2E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OrbiumHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				CE7C44B612469F480019E2E8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* OrbiumAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 1066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 790}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* OrbiumHD */ = {
+		activeExec = 0;
+		executables = (
+			80078D4013A7E06E000E08EF /* OrbiumHD */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 80078D4013A7E06E000E08EF /* OrbiumHD */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* OrbiumHD */;
+		codeSenseManager = 80078E6E13A7E08D000E08EF /* Code sense */;
+		executables = (
+			80078D4013A7E06E000E08EF /* OrbiumHD */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					526,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					540.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					486,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329778469;
+			PBXWorkspaceStateSaveDate = 329778469;
+		};
+		perUserProjectItems = {
+			80C3147F13A8033800BB53BD /* PlistBookmark */ = 80C3147F13A8033800BB53BD /* PlistBookmark */;
+			80D64F7D13A805A400DA9C4A /* PlistBookmark */ = 80D64F7D13A805A400DA9C4A /* PlistBookmark */;
+		};
+		sourceControlManager = 80078E6D13A7E08D000E08EF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	80078D4013A7E06E000E08EF /* OrbiumHD */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OrbiumHD;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	80078E6D13A7E08D000E08EF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	80078E6E13A7E08D000E08EF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	80C3147F13A8033800BB53BD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* OrbiumHD-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIInterfaceOrientation,
+		);
+		name = "/Users/bni/Documents/orbium_ext/ios/OrbiumHD/OrbiumHD-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	80D64F7D13A805A400DA9C4A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* OrbiumHD-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UISupportedInterfaceOrientations,
+			0,
+		);
+		name = "/Users/bni/Documents/orbium_ext/ios/OrbiumHD/OrbiumHD-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
