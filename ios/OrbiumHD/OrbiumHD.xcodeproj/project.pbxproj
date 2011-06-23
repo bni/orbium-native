@@ -337,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C \"${PHONEGAPLIB}\"\necho cp ${PHONEGAPLIB}/javascripts/phonegap.js ${PROJECT_DIR}/www/phonegap.js\ncp \"${PHONEGAPLIB}/javascripts/phonegap.0.9.5.1.min.js\" \"${PROJECT_DIR}/www/phonegap.js\"";
+			shellScript = "make -C \"${PHONEGAPLIB}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
