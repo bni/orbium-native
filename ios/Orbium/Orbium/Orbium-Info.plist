@@ -14,7 +14,6 @@
 	<array>
 		<string>icon.png</string>
 		<string>icon@2x.png</string>
-		<string>icon-72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>se.jsway.orbium</string>
@@ -34,19 +33,14 @@
 	<false/>
 	<key>NSMainNibFile</key>
 	<string></string>
-	<key>NSMainNibFile~ipad</key>
-	<string></string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIPrerenderedIcon</key>
 	<true/>
 </dict>
 </plist>
