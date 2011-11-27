@@ -13,6 +13,8 @@
 		808C23AB14813F4900737363 /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = 808C23A614813F4900737363 /* explode.wav */; };
 		808C23AC14813F4900737363 /* rotate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 808C23A714813F4900737363 /* rotate.wav */; };
 		808C23AF1481402F00737363 /* SoundPlug.m in Sources */ = {isa = PBXBuildFile; fileRef = 808C23AE1481402F00737363 /* SoundPlug.m */; };
+		8094582314827600006DB489 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8094582114827600006DB489 /* Default-Landscape.png */; };
+		8094582414827600006DB489 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8094582214827600006DB489 /* Default-Portrait.png */; };
 		80CC0DBF14813B15002E7ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC0DBE14813B15002E7ED1 /* Foundation.framework */; };
 		80CC0DC114813B15002E7ED1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC0DC014813B15002E7ED1 /* UIKit.framework */; };
 		80CC0DC314813B15002E7ED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CC0DC214813B15002E7ED1 /* CoreGraphics.framework */; };
@@ -32,7 +34,6 @@
 		80CC0DFF14813B16002E7ED1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CC0DFE14813B16002E7ED1 /* AppDelegate.m */; };
 		80CC0E0814813D6E002E7ED1 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 80CC0E0714813D6E002E7ED1 /* www */; };
 		80CF2875148260BF00BE4CA5 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CF2874148260BF00BE4CA5 /* icon-72.png */; };
-		80CF2878148260D300BE4CA5 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CF2877148260D300BE4CA5 /* Default~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		808C23A714813F4900737363 /* rotate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rotate.wav; path = Resources/rotate.wav; sourceTree = "<group>"; };
 		808C23AD1481402F00737363 /* SoundPlug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundPlug.h; path = Plugins/SoundPlug.h; sourceTree = "<group>"; };
 		808C23AE1481402F00737363 /* SoundPlug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundPlug.m; path = Plugins/SoundPlug.m; sourceTree = "<group>"; };
+		8094582114827600006DB489 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Resources/splash/Default-Landscape.png"; sourceTree = "<group>"; };
+		8094582214827600006DB489 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Resources/splash/Default-Portrait.png"; sourceTree = "<group>"; };
 		80CC0DBA14813B15002E7ED1 /* OrbiumHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbiumHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CC0DBE14813B15002E7ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80CC0DC014813B15002E7ED1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -66,7 +69,6 @@
 		80CC0DFE14813B16002E7ED1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		80CC0E0714813D6E002E7ED1 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		80CF2874148260BF00BE4CA5 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
-		80CF2877148260D300BE4CA5 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "Resources/splash/Default~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +189,8 @@
 		80CC0DF314813B15002E7ED1 /* splash */ = {
 			isa = PBXGroup;
 			children = (
-				80CF2877148260D300BE4CA5 /* Default~ipad.png */,
+				8094582114827600006DB489 /* Default-Landscape.png */,
+				8094582214827600006DB489 /* Default-Portrait.png */,
 			);
 			name = splash;
 			sourceTree = "<group>";
@@ -272,7 +275,8 @@
 				808C23AB14813F4900737363 /* explode.wav in Resources */,
 				808C23AC14813F4900737363 /* rotate.wav in Resources */,
 				80CF2875148260BF00BE4CA5 /* icon-72.png in Resources */,
-				80CF2878148260D300BE4CA5 /* Default~ipad.png in Resources */,
+				8094582314827600006DB489 /* Default-Landscape.png in Resources */,
+				8094582414827600006DB489 /* Default-Portrait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
