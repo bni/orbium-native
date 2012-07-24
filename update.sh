@@ -50,7 +50,6 @@ do
 		elif [[ $DEST == *webos* ]]
 		then
 			rm -rf $DEST/js/344x234.js $DEST/gfx/344x234
-			rm -rf $DEST/js/704x479.js $DEST/gfx/704x479
 			rm -rf $DEST/js/936x637.js $DEST/gfx/936x637
 			rm -rf $DEST/js/1024x697.js $DEST/gfx/1024x697
 		fi
