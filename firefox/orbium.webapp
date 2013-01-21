@@ -2,14 +2,15 @@
 	"version": "1.3.14",
 	"name": "Orbium",
 	"description": "The Ancient Alien Puzzle Game!",
+	"launch_path": "/m/",
 	"icons": {
-		"16": "/ico/app_16x16.png",
-		"48": "/ico/app_48x48.png",
-		"128": "/ico/app_128x128.png"
+		"16": "/m/ico/app_16x16.png",
+		"48": "/m/ico/app_48x48.png",
+		"128": "/m/ico/app_128x128.png"
 	},
 	"developer": {
 		"name": "Björn Nilsson",
-		"url": "http://jsway.se/m"
+		"url": "http://jsway.se"
 	},
 	"installs_allowed_from": ["*"],
 	"default_locale": "en",
