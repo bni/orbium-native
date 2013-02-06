@@ -17,9 +17,6 @@ do
 		cp -r $SRC/css $SRC/gfx $SRC/js $SRC/snd $SRC/index.html $DEST/
 
 		rm $DEST/js/server.js
-		rm $DEST/js/level_free.js
-		rm $DEST/js/level_lite.js
-		rm $DEST/js/level_show.js
 
 		if [[ $DEST == *android* ]]
 		then
