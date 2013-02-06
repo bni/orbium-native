@@ -3,6 +3,7 @@
 	"name": "Orbium",
 	"description": "The Ancient Alien Puzzle Game!",
 	"launch_path": "/m/",
+	"fullscreen": "true",
 	"icons": {
 		"16": "/m/ico/app_16x16.png",
 		"48": "/m/ico/app_48x48.png",
