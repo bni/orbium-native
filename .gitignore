@@ -1,2 +1,9 @@
 .DS_Store
 *xcuserdata*
+bin
+gen
+css
+gfx
+js
+snd
+index.html

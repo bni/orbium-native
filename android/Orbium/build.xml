@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="orbium" default="help">
-	<property file="local.properties"/>
-	<property file="build.properties"/>
-	<property file="default.properties"/>
+    <property file="local.properties" />
+    <property file="ant.properties" />
 
-	<path id="android.antlibs">
-		<pathelement path="${sdk.dir}/tools/lib/anttasks.jar"/>
-		<pathelement path="${sdk.dir}/tools/lib/sdklib.jar"/>
-		<pathelement path="${sdk.dir}/tools/lib/androidprefs.jar"/>
-	</path>
+    <property environment="env" />
+    <condition property="sdk.dir" value="${env.ANDROID_HOME}">
+        <isset property="env.ANDROID_HOME" />
+    </condition>
 
-	<taskdef name="setup" classname="com.android.ant.SetupTask" classpathref="android.antlibs"/>
+    <loadproperties srcFile="project.properties" />
 
-	<setup/>
+    <import file="${sdk.dir}/tools/ant/build.xml" />
 </project>
