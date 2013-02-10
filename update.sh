@@ -6,6 +6,7 @@ DESTS=("android/Orbium/assets/www" \
 "ios/OrbiumHD/www" \
 "webos/Orbium" \
 "webos/OrbiumHD" \
+"chrome/orbium" \
 )
 
 for DEST in "${DESTS[@]}"
@@ -48,6 +49,10 @@ do
 			rm -rf $DEST/js/344x234.js $DEST/gfx/344x234
 			rm -rf $DEST/js/936x637.js $DEST/gfx/936x637
 			rm -rf $DEST/js/1024x697.js $DEST/gfx/1024x697
+		elif [[ $DEST == *chrome* ]]
+		then
+			rm -rf $DEST/js/344x234.js $DEST/gfx/344x234
+			rm -rf $DEST/js/424x289.js $DEST/gfx/424x289
 		fi
 	fi
 done
